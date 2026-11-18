@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Pranta Chandra Nath, Executive – CRM & MIS, specializing in MIS reporting, CRM data management, Excel analysis and sales performance reporting.">
+<title>Pranta Chandra Nath | Editable CRM & MIS Portfolio</title>
+<style>
+:root{--navy:#10243a;--blue:#1d5d83;--teal:#1b9aaa;--ink:#243447;--muted:#64748b;--paper:#f5f8fb;--white:#fff;--line:#e2e8f0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+header{background:rgba(16,36,58,.98);color:#fff;position:sticky;top:0;z-index:5;box-shadow:0 3px 18px #0b1c2c22}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 0}.brand{font-weight:800;letter-spacing:.4px}.brand span{color:#63d2d8}nav{display:flex;gap:20px;flex-wrap:wrap;font-size:14px;color:#e5edf5}nav a:hover{color:#63d2d8}
+.hero{background:linear-gradient(125deg,#10243a 0%,#17496a 65%,#1b7180 100%);color:#fff;padding:82px 0}.hero-grid{display:grid;grid-template-columns:1.5fr .8fr;gap:48px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:2px;color:#9ce4e7;font-size:12px;font-weight:700}h1{font-size:clamp(36px,6vw,58px);line-height:1.08;margin:15px 0}.hero p{color:#d9e7f1;max-width:680px;font-size:18px}.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.btn{display:inline-block;padding:12px 19px;border-radius:8px;font-weight:700;font-size:14px}.primary{background:#63d2d8;color:#10243a}.outline{border:1px solid #a9c6d8;color:#fff}.profile-card{background:#ffffff12;border:1px solid #ffffff30;border-radius:18px;padding:27px;text-align:center}.avatar{width:112px;height:112px;border-radius:50%;margin:0 auto 16px;background:#d9f2f2;color:#17496a;display:grid;place-items:center;font-size:36px;font-weight:800}.profile-card h3{margin:5px 0}.profile-card p{font-size:14px;margin:0 auto;color:#d9e7f1}
+section{padding:68px 0}.section-title{font-size:30px;color:var(--navy);margin:0 0 8px}.section-sub{color:var(--muted);margin:0 0 28px}.about-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:30px}.panel,.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px;box-shadow:0 8px 28px #10243a08}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fact{padding:14px;background:#f2f7fa;border-radius:10px}.fact strong{display:block;color:var(--blue);font-size:12px}.fact span{font-size:14px}.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.skill{background:#fff;border:1px solid var(--line);border-radius:12px;padding:19px}.skill .ico{font-size:22px}.skill h3{margin:7px 0 4px;font-size:17px;color:var(--navy)}.skill p{margin:0;color:var(--muted);font-size:14px}
+.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}.project{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}.project-top{height:8px;background:linear-gradient(90deg,var(--blue),var(--teal))}.project-body{padding:22px}.tag{display:inline-block;background:#e8f5f6;color:#176b77;border-radius:30px;padding:4px 10px;font-size:11px;font-weight:700;margin:0 5px 7px 0}.project h3{color:var(--navy);margin:8px 0}.project p{color:var(--muted);font-size:14px;margin:0}
+.timeline{border-left:2px solid #c6dce7;padding-left:24px;margin-left:8px}.timeline-item{position:relative;margin:0 0 25px}.timeline-item:before{content:"";position:absolute;left:-32px;top:7px;width:13px;height:13px;background:var(--teal);border:3px solid #e7f4f5;border-radius:50%}.timeline-item h3{margin:0;color:var(--navy)}.meta{color:var(--blue);font-size:13px;font-weight:700}.timeline-item p{margin:7px 0;color:var(--muted)}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.metric{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;text-align:center}.metric strong{display:block;font-size:27px;color:var(--blue)}.metric span{font-size:12px;color:var(--muted)}
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:15px}.edu-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px}.edu-card h3{margin:0;color:var(--navy);font-size:17px}.edu-card p{margin:5px 0;color:var(--muted);font-size:14px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.contact-item{padding:17px;background:#fff;border:1px solid var(--line);border-radius:10px}.contact-item small{display:block;color:var(--muted);text-transform:uppercase;letter-spacing:1px;font-size:11px}.contact-item strong{overflow-wrap:anywhere}footer{background:#0b1b2b;color:#cbd8e4;padding:23px 0;font-size:13px;text-align:center}.note{font-size:12px;color:var(--muted);margin-top:15px}
+@media(max-width:760px){.hero-grid,.about-grid{grid-template-columns:1fr}.hero{padding:58px 0}.profile-card{max-width:350px}.skills{grid-template-columns:1fr 1fr}.projects{grid-template-columns:1fr}.metrics{grid-template-columns:1fr 1fr}.edu{grid-template-columns:1fr}nav{gap:12px;font-size:12px}.nav{align-items:flex-start;flex-direction:column}}
+@media(max-width:450px){.skills,.facts,.contact-grid{grid-template-columns:1fr}section{padding:50px 0}}
+</style></head>
+<body>
+
+<div id="editToolbar" style="position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid #dbe4ec;padding:10px 4%;display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;font-family:Arial,sans-serif">
+  <strong style="color:#10243a;margin-right:8px">Website Editor</strong>
+  <button type="button" id="editBtn" style="border:0;border-radius:7px;padding:10px 15px;background:#1d5d83;color:#fff;font-weight:bold;cursor:pointer">Edit Website</button>
+  <button type="button" id="saveBtn" disabled style="border:0;border-radius:7px;padding:10px 15px;background:#17845b;color:#fff;font-weight:bold;cursor:pointer;opacity:.5">Save Changes</button>
+  <button type="button" id="cancelBtn" disabled style="border:1px solid #cbd5e1;border-radius:7px;padding:10px 15px;background:#fff;color:#243447;font-weight:bold;cursor:pointer;opacity:.5">Cancel</button>
+  <button type="button" id="downloadBtn" style="border:1px solid #1d5d83;border-radius:7px;padding:10px 15px;background:#fff;color:#1d5d83;font-weight:bold;cursor:pointer">Download Edited Website</button>
+  <span id="editStatus" style="font-size:12px;color:#64748b">Click “Edit Website” to change text on the page.</span>
+</div>
+
+<header><div class="wrap nav"><div class="brand">PRANTA <span>CHANDRA NATH</span></div><nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a></nav></div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Professional Portfolio</div><h1>Pranta Chandra Nath</h1><p><strong>Executive – CRM & MIS</strong><br>Sales Administration · MIS Reporting · Excel Analysis · Sales Performance</p><p>CRM and MIS professional with 3 years of hands-on experience in customer data management, business reporting, sales performance analysis and operational support.</p><div class="btns"><a class="btn primary" href="#projects">Explore My Work</a><a class="btn outline" href="mailto:prantabs1998@gmail.com">Contact Me</a></div></div><div class="profile-card"><div class="avatar">PCN</div><h3>Pranta Chandra Nath</h3><p>Executive – CRM & MIS</p><p style="margin-top:10px">Career Interest: Sales Admin & MIS / Sales Coordinator / Data Analyst</p></div></div></section>
+<section id="about"><div class="wrap"><h2 class="section-title">About Me</h2><p class="section-sub">Professional profile</p><div class="about-grid"><div class="panel"><p>I am a CRM professional with 3 years of hands-on experience working with customer data across multiple categories, handling customer issues, maintaining accurate data records and supporting management through reporting.</p><p>I have experience in data collection, data verification and report preparation using CRM systems and spreadsheets. I use business information to prepare clear reports and meaningful insights. I am currently pursuing an MBA in Management Information Systems (MIS) at Uttara University and aim to further develop my skills in MIS, sales coordination and data analysis.</p></div><div class="facts"><div class="fact"><strong>EXPERIENCE</strong><span>3 years</span></div><div class="fact"><strong>CORE ROLE</strong><span>CRM & MIS</span></div><div class="fact"><strong>EDUCATION</strong><span>MBA (Ongoing)</span></div><div class="fact"><strong>LOCATION</strong><span>Dhaka, Bangladesh</span></div></div></div></div></section>
+<section id="skills" style="background:#edf3f7"><div class="wrap"><h2 class="section-title">Skills & Expertise</h2><p class="section-sub">Core competencies and tools from my professional experience</p><div class="skills">
+<div class="skill"><div class="ico">▦</div><h3>MS Excel & Google Sheets</h3><p>Pivot Tables, VLOOKUP, data analysis, tracking and reporting.</p></div>
+<div class="skill"><div class="ico">▤</div><h3>MIS Reporting</h3><p>Daily, weekly and monthly reports for sales and business performance.</p></div>
+<div class="skill"><div class="ico">↗</div><h3>Sales Analysis</h3><p>Zone-wise and territory-wise sales versus achievement reporting.</p></div>
+<div class="skill"><div class="ico">◎</div><h3>CRM Data Management</h3><p>Customer database management, data accuracy and documentation.</p></div>
+<div class="skill"><div class="ico">◫</div><h3>Data Quality</h3><p>Data collection, verification, cleaning and mismatch resolution.</p></div>
+<div class="skill"><div class="ico">⌘</div><h3>Business Tools</h3><p>Quickops.io sales automation, MS Office and Google Workspace.</p></div>
+<div class="skill"><div class="ico">▧</div><h3>Power BI</h3><p>Currently learning.</p></div>
+<div class="skill"><div class="ico">⌨</div><h3>SQL</h3><p>Currently learning.</p></div>
+<div class="skill"><div class="ico">♧</div><h3>Communication & Coordination</h3><p>Customer handling, teamwork and cross-functional coordination.</p></div>
+</div></div></section>
+<section id="projects"><div class="wrap"><h2 class="section-title">Work Areas & Project Samples</h2><p class="section-sub">Portfolio-ready examples based on the responsibilities listed in my CV</p><div class="projects">
+<div class="project"><div class="project-top"></div><div class="project-body"><span class="tag">EXCEL</span><span class="tag">MIS</span><h3>Daily, Weekly & Monthly MIS Reports</h3><p>Preparing structured business reports using MS Excel and Google Sheets to monitor sales and business performance.</p></div></div>
+<div class="project"><div class="project-top"></div><div class="project-body"><span class="tag">SALES ANALYSIS</span><h3>Zone-wise & Territory-wise Performance</h3><p>Tracking sales targets, actual sales, achievement percentages and performance gaps through regular reports.</p></div></div>
+<div class="project"><div class="project-top"></div><div class="project-body"><span class="tag">CRM</span><span class="tag">DATA QUALITY</span><h3>Customer Database Management</h3><p>Maintaining CRM records, checking data consistency and supporting proper customer documentation.</p></div></div>
+<div class="project"><div class="project-top"></div><div class="project-body"><span class="tag">DATA ANALYSIS</span><h3>Data Verification & Reporting</h3><p>Collecting, updating and verifying business data from multiple sources and resolving data mismatches.</p></div></div>
+</div><p class="note">These are descriptions of work areas, not downloadable project files. Add sanitized screenshots or sample Excel reports to demonstrate the work. Do not share confidential company or customer data.</p></div></section>
+<section style="background:#edf3f7"><div class="wrap"><h2 class="section-title">Selected Performance Highlights</h2><p class="section-sub">Reported outcomes from my professional experience</p><div class="metrics">
+<div class="metric"><strong>10+</strong><span>Business data sources managed</span></div><div class="metric"><strong>500+</strong><span>CRM client records maintained</span></div><div class="metric"><strong>15%</strong><span>Improvement in data accuracy</span></div><div class="metric"><strong>10–12%</strong><span>Sales performance improvement supported by analysis</span></div>
+</div></div></section>
+<section id="experience"><div class="wrap"><h2 class="section-title">Professional Experience</h2><p class="section-sub">Employment history</p><div class="panel"><div class="timeline">
+<div class="timeline-item"><h3>Executive – CRM & MIS</h3><div class="meta">Anwar Group of Industries · December 2023 – July 2026</div><p>Collected, updated, verified and maintained business data from 10+ sources to support accurate MIS reporting.</p><p>Prepared daily, weekly and monthly MIS reports using MS Excel and Google Sheets. Prepared zone-wise and territory-wise Sales vs. Achievement Reports covering targets, actual sales, achievement percentages and performance gaps.</p><p>Managed CRM databases of 500+ clients; used Excel functions, Pivot Tables and VLOOKUP to organize and analyze data. Monitored data accuracy and resolved mismatches, contributing to a 15% improvement in data accuracy.</p><p>Analyzed sales and customer data, providing insights that contributed to a 10–12% improvement in sales performance. Coordinated with internal departments and retailers to collect and consolidate information for management reports.</p></div>
+<div class="timeline-item"><h3>Customer Service Officer</h3><div class="meta">bKash Limited (MFS) · April 2023 – November 2023</div><p>Provided customer support to 100+ customers daily while maintaining a 95% customer satisfaction rate. Handled account operations for 500+ accounts with 98% accuracy.</p><p>Resolved 90% of complex customer issues within 24 hours and maintained service records and operational data to support reporting and service quality.</p></div>
+</div></div></div></section>
+<section id="education" style="background:#edf3f7"><div class="wrap"><h2 class="section-title">Education</h2><p class="section-sub">Academic background</p><div class="edu">
+<div class="edu-card"><h3>Master of Business Administration (MBA)</h3><p>Uttara University, Dhaka</p><p>Specialization: Management Information Systems (MIS)</p><p><strong>2025 – Present · Ongoing</strong></p></div>
+<div class="edu-card"><h3>B.Sc. in Soil Science</h3><p>Government Shahid Suhrawardy College, Dhaka</p><p>Affiliated with University of Dhaka</p><p><strong>CGPA: 3.10</strong></p></div>
+<div class="edu-card"><h3>Higher Secondary Certificate (HSC)</h3><p>Islamia Degree College, Chattogram</p><p>Science · GPA: 3.75</p><p><strong>2017</strong></p></div>
+</div></div></section>
+<section id="contact"><div class="wrap"><h2 class="section-title">Contact</h2><p class="section-sub">Professional contact details</p><div class="contact-grid">
+<div class="contact-item"><small>Email</small><strong><a href="mailto:prantabs1998@gmail.com">prantabs1998@gmail.com</a></strong></div>
+<div class="contact-item"><small>Phone</small><strong><a href="tel:+8801819063343">+880 1819-063343</a></strong></div>
+<div class="contact-item"><small>LinkedIn</small><strong><a href="https://www.linkedin.com/in/pranta-chandra-nath" target="_blank" rel="noopener">linkedin.com/in/pranta-chandra-nath</a></strong></div>
+<div class="contact-item"><small>Location</small><strong>Dhaka, Bangladesh</strong></div>
+</div></div></section>
+</main><footer>© 2026 Pranta Chandra Nath · Professional Portfolio</footer>
+
+<script>
+(function () {
+  const main = document.querySelector('main');
+  const editBtn = document.getElementById('editBtn');
+  const saveBtn = document.getElementById('saveBtn');
+  const cancelBtn = document.getElementById('cancelBtn');
+  const downloadBtn = document.getElementById('downloadBtn');
+  const status = document.getElementById('editStatus');
+  let beforeEdit = '';
+  let editing = false;
+
+  function setEditing(on) {
+    editing = on;
+    main.querySelectorAll('h1,h2,h3,p,span,strong,small').forEach(el => {
+      if (!el.closest('a') && !el.closest('style') && !el.closest('script')) {
+        el.contentEditable = on ? 'true' : 'false';
+        el.style.outline = on ? '1px dashed #1b9aaa' : '';
+        el.style.outlineOffset = on ? '3px' : '';
+        el.style.cursor = on ? 'text' : '';
+      }
+    });
+    editBtn.disabled = on;
+    saveBtn.disabled = !on;
+    cancelBtn.disabled = !on;
+    saveBtn.style.opacity = on ? '1' : '.5';
+    cancelBtn.style.opacity = on ? '1' : '.5';
+    status.textContent = on
+      ? 'Edit the highlighted text directly. Then click “Save Changes”.'
+      : 'Changes are saved in this browser. Download the edited file to keep/share them.';
+  }
+
+  editBtn.addEventListener('click', () => {
+    beforeEdit = main.innerHTML;
+    setEditing(true);
+  });
+
+  saveBtn.addEventListener('click', () => {
+    setEditing(false);
+    try {
+      localStorage.setItem('prantaPortfolioMain', main.innerHTML);
+      status.textContent = 'Saved in this browser. Use “Download Edited Website” to save a portable copy.';
+    } catch (e) {
+      status.textContent = 'Saved for this session. Download the edited website to keep your changes.';
+    }
+  });
+
+  cancelBtn.addEventListener('click', () => {
+    main.innerHTML = beforeEdit;
+    setEditing(false);
+    status.textContent = 'Your unsaved edits were cancelled.';
+  });
+
+  downloadBtn.addEventListener('click', () => {
+    const copy = document.documentElement.cloneNode(true);
+    const copyMain = copy.querySelector('main');
+    copyMain.innerHTML = main.innerHTML;
+    copy.querySelectorAll('[contenteditable]').forEach(el => {
+      el.removeAttribute('contenteditable');
+      el.style.outline = '';
+      el.style.outlineOffset = '';
+      el.style.cursor = '';
+    });
+    const toolbarCopy = copy.querySelector('#editToolbar');
+    if (toolbarCopy) toolbarCopy.remove();
+    const editorScript = copy.querySelector('script');
+    if (editorScript) editorScript.remove();
+    const blob = new Blob(['<!DOCTYPE html>\\n' + copy.outerHTML], {type: 'text/html;charset=utf-8'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Pranta_Chandra_Nath_Portfolio_Edited.html';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+    status.textContent = 'Your edited website file has been downloaded.';
+  });
+
+  try {
+    const saved = localStorage.getItem('prantaPortfolioMain');
+    if (saved) main.innerHTML = saved;
+  } catch (e) {}
+  setEditing(false);
+})();
+</script>
+
+</body></html>
